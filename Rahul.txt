@@ -1,0 +1,9 @@
+// Remenber //
+
+Sidebar component is used in the Homepage component, for that first we Mount the Homepage and Videopage on our app component using the react router to implement the react router in our project we will use main.jsx, here we use BrowserRouter tag.
+after this in the app.jsx component after the Navbar component we will cretes the routes 
+
+           Apis
+
+
+AIzaSyCtuhpxWYZ_ByDAxMoxAQPhQpvg23zRKxg

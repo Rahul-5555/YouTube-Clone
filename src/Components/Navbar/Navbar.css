@@ -1,0 +1,78 @@
+nav {
+  /* Sets padding for the top and bottom to 10 pixels and left and right to 2% of the container's width */
+  padding: 10px 2%;
+
+  /* Aligns flex items along the main axis (horizontal axis) with space distributed between the items */
+  justify-content: space-between;
+
+  /* Applies a box shadow effect with a horizontal offset of 0, vertical offset of 0, blur radius of 10 pixels, and color with 20% opacity */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  /* Sets the background color to white */
+  background: #fff;
+
+  /* Fixes the element's position relative to the viewport. The element will remain in its normal position until it reaches the top of the viewport, then it will stick there. */
+  position: sticky;
+
+  /* Sets the distance between the top edge of the element and the top edge of its containing block (viewport in this case) to 0 */
+  top: 0;
+
+  /* Sets the stacking order of the element within its stacking context. Elements with higher z-index values will be displayed on top of elements with lower z-index values */
+  z-index: 10;
+}
+
+.menu-icon {
+  width: 22px;
+  margin-right: 25px;
+}
+
+.nav-left .logo {
+  width: 130px;
+}
+
+.nav-middle .search-box {
+  border: 1px solid #ccc;
+  margin-right: 15px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+
+.nav-middle .search-box input{
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.nav-middle .search-box img{
+  width: 15px;
+}
+
+.nav-right img{
+  width: 25px;
+  margin-right: 25px;
+}
+
+.nav-right .user-icon{
+  width: 35px;
+  border-radius: 50%;
+}
+
+@media (max-width:900px) {
+  .menu-icon{
+    display: none;
+  }
+  .nav-right img{
+    display: none;
+  }
+  .nav-right .user-icon{
+    display: block;
+    width: 30px;
+  }
+  .logo{
+    width: 90px;
+  }
+  .nav-middle .search-box input{
+    width: 100px;
+  }
+}
